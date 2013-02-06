@@ -11,7 +11,7 @@ return array(
 
 	/* Don't touch */
 	APN::PRODUCTION_SERVER => "ssl://gateway.push.apple.com:2195",
-	APN::SANDBOX_SERVER => "ssl://gateway.push.apple.com:2195"
+	APN::SANDBOX_SERVER => "ssl://gateway.sandbox.push.apple.com:2195"
 
 
 );
