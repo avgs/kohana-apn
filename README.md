@@ -15,7 +15,7 @@ or
 Advanced usage:
  $body = array(
 	    'aps' => array(
-	        'alert' => $body,
+	        'alert' => 'APN test',
 	        'sound' => 'default'
 	    )
  );
