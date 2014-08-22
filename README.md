@@ -1,9 +1,10 @@
-1. Create a certificate directory in your application/ folder
-2. Copy your pem file (which includes) its private key in application/certificate
-3. Copy modules/apn/config/apn.php into application/config/apn.php and edit it
+1. Create a 'certificates' directory in your application/ folder
+2. Copy your pem file (which includes) its private key in application/certificates
+3. Copy modules/apn/config/apn.php into application/config/apn.php and edit it:
+	3.1 Change 'appname' in config array key to 'the name of your application'
 
 
- $apn = APN::factory('name of the application');
+ $apn = APN::factory('the name of your application');
 
  public function send($deviceToken, $body, $identifier = null, $expiry = null)
 
