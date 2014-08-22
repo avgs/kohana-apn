@@ -1,6 +1,6 @@
 1. Create a 'certificates' directory in your application/ folder
 2. Copy your pem file (which includes) its private key in application/certificates
-3. Copy modules/apn/config/apn.php into application/config/apn.php and edit it:
+3. Copy modules/apn/config/apn.php into application/config/apn.php and edit it:  
 	3.1 Change 'appname' in config array key to 'the name of your application'
 
 
