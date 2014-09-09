@@ -1,0 +1,24 @@
+{
+    "name": "pridemon/kohana-apn",
+    "type":        "kohana-module",
+    "description": "Apple Push Notification Service",
+    "license":     "BSD-3-Clause",
+    "require": {
+        "composer/installers": "~1.0",
+        "kohana/core":         ">=3.3",
+        "php":                 ">=5.3.3"
+    },
+    "repositories"			:[
+
+        {
+            "type":"git",
+            "url":"https://github.com/pridemon/kohana-apn.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ilya Gudkov",
+            "email": "pridemon@yandex.ru"
+        }
+    ]
+}
