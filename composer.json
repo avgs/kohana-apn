@@ -1,5 +1,5 @@
 {
-    "name": "pridemon/apn",
+    "name": "pridemon/kohana-apn",
     "type":        "kohana-module",
     "description": "Apple Push Notification Service",
     "license":     "BSD-3-Clause",
